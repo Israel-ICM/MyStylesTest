@@ -12,6 +12,7 @@ public class MyStylesTest {
      */
     public static void main(String[] args) {
         MyStyles.install(MyStyles.METRO_UI);
+        // MyStyles.install(MyStyles.METRO_UI_DARK);
         new Test().setVisible(true);
     }
     
