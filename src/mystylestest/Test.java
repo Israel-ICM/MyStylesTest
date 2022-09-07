@@ -1,15 +1,18 @@
 package mystylestest;
 
-import icm.sphynx.MyStyles;
-import icm.sphynx.ui.metro.tools.MetroUIComponent;
-import icm.sphynx.ui.metro.tools.MetroUIConfigTheme;
-import icm.sphynx.ui.metro.tools.MetroUIStyleColors;
+import com.sphynxs.mystyles.MyStyles;
+import com.sphynxs.mystyles.ui.metro.tools.MetroUIComponent;
+import com.sphynxs.mystyles.ui.metro.tools.MetroUIConfigTheme;
+import com.sphynxs.mystyles.ui.metro.tools.MetroUIStyleColors;
 import java.awt.Color;
 import java.awt.Image;
 import javax.swing.ImageIcon;
 import javax.swing.JColorChooser;
 import javax.swing.JFileChooser;
+import javax.swing.JFrame;
 import javax.swing.JOptionPane;
+import javax.swing.UIDefaults;
+import javax.swing.UIManager;
 
 /**
  * @author israel-icm
@@ -19,7 +22,7 @@ public class Test extends javax.swing.JFrame {
     /**
      * Creates new form Test
      */
-    public Test() {
+    public Test() {        
         initComponents();
         setLocationRelativeTo(null);
 
